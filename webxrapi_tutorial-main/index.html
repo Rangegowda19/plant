@@ -67,20 +67,13 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       arObject.visible = false;
       scene.addNode(arObject);
 
-      let title = new Gltf2Node({url: 'media/gltf/text/text.gltf'});
-arObject.addNode(title);
-
-let flower = new Gltf2Node({url: 'media/gltf/model(1)/model.gltf'});
-arObject.addNode(flower);
-
-// Adding your custom model
-let customModel = new Gltf2Node({url: 'media/gltf/model.glb'});  // Replace with your file path
+      let customModel = new Gltf2Node({url: 'media/gltf/model.glb'});  // Replace with your file path
 arObject.addNode(customModel);
 
-let reticle = new Gltf2Node({url: 'media/gltf/reticle/reticle1.gltf'});
-reticle.visible = false;
-scene.addNode(reticle);
-
+      
+      let reticle = new Gltf2Node({url: 'media/gltf/reticle/reticle1.gltf'});
+      reticle.visible = false;
+      scene.addNode(reticle);
 
       // Having a really simple drop shadow underneath an object helps ground
       // it in the world without adding much complexity.
