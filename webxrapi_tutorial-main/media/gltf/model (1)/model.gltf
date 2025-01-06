@@ -1,0 +1,353 @@
+{
+    "asset": {
+        "generator": "https://3dviewer.net",
+        "version": "2.0"
+    },
+    "scene": 0,
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "mesh": 0,
+            "matrix": [
+                100,
+                0,
+                0,
+                0,
+                0,
+                -0.000016292067939183138,
+                -99.99999999999864,
+                0,
+                0,
+                82.94012451171764,
+                -0.000013512661434292308,
+                0,
+                5.815460205078125,
+                85.48580169677734,
+                -7.505428791046143,
+                1
+            ]
+        },
+        {
+            "mesh": 1,
+            "matrix": [
+                26.249719970200765,
+                0.000001463234811092501,
+                -27.056005042902736,
+                0,
+                -68.30415508485197,
+                -0.000007967405434169771,
+                -66.26865056150878,
+                0,
+                -9.284723951555572e-7,
+                10.657957077026323,
+                -3.2440290407074945e-7,
+                0,
+                58.294700622558594,
+                160.68572998046875,
+                47.69309616088867,
+                1
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "the color of the pot",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.11953842797895521,
+                    0.01764195448412081,
+                    0.004391442035325718,
+                    1
+                ]
+            },
+            "emissiveFactor": [
+                0,
+                0,
+                0
+            ],
+            "doubleSided": true,
+            "alphaMode": "OPAQUE"
+        },
+        {
+            "name": "The color of the earth",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.023153366173251366,
+                    0.002428215868235294,
+                    0.001214107934117647,
+                    1
+                ]
+            },
+            "emissiveFactor": [
+                0,
+                0,
+                0
+            ],
+            "doubleSided": true,
+            "alphaMode": "OPAQUE"
+        },
+        {
+            "name": "leaf color",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.0036765073221525194,
+                    0.6038273388475408,
+                    0.00030352698352941176,
+                    1
+                ]
+            },
+            "emissiveFactor": [
+                0,
+                0,
+                0
+            ],
+            "doubleSided": true,
+            "alphaMode": "OPAQUE"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pot",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 1,
+                        "NORMAL": 2,
+                        "TEXCOORD_0": 3
+                    },
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 0
+                },
+                {
+                    "attributes": {
+                        "POSITION": 5,
+                        "NORMAL": 6,
+                        "TEXCOORD_0": 7
+                    },
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 4
+                }
+            ]
+        },
+        {
+            "name": "leaves",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 9,
+                        "NORMAL": 10,
+                        "TEXCOORD_0": 11
+                    },
+                    "mode": 4,
+                    "material": 2,
+                    "indices": 8
+                }
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "uri": "model.bin",
+            "byteLength": 7315704
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 13776,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13776,
+            "byteLength": 41328,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 55104,
+            "byteLength": 41328,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 96432,
+            "byteLength": 27552,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 123984,
+            "byteLength": 360,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 124344,
+            "byteLength": 1080,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 125424,
+            "byteLength": 1080,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 126504,
+            "byteLength": 720,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 127224,
+            "byteLength": 798720,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 925944,
+            "byteLength": 2396160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3322104,
+            "byteLength": 2396160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5718264,
+            "byteLength": 1597440,
+            "target": 34962
+        }
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 3444,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3444,
+            "min": [
+                -1.449752926826477,
+                -1.449752926826477,
+                -1
+            ],
+            "max": [
+                1.449752926826477,
+                1.449752926826477,
+                1.5392417907714844
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3444,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 3444,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 90,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 90,
+            "min": [
+                -1.1169764995574951,
+                -1.1307754516601562,
+                1.2377218008041382
+            ],
+            "max": [
+                1.1443040370941162,
+                1.130505084991455,
+                1.2377218008041382
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 90,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 7,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 90,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 8,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 199680,
+            "type": "SCALAR"
+        },
+        {
+            "bufferView": 9,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 199680,
+            "min": [
+                -5.80062198638916,
+                -1.1554516553878784,
+                -2.678781747817993
+            ],
+            "max": [
+                5.783459663391113,
+                3.136265993118286,
+                13.033486366271973
+            ],
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 10,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 199680,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 11,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 199680,
+            "type": "VEC2"
+        }
+    ]
+}
